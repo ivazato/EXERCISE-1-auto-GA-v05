@@ -18,4 +18,9 @@ public class StepsDefinitionPHPtravel {
     public void setMyCredentialsOnLoginPage() throws Throwable {
         login.setCredentials();
     }
+
+    @And("^Hover Men link HEADER$")
+    public void hoverMenLinkHEADER() {
+        adidas.HombreClick();
+    }
 }
